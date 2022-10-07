@@ -9,7 +9,7 @@ public class Test7{
         System.out.println("Enter frist integer:");
         grade = input.nextInt();
         
-        if (grade <= 100) {
+        if (grade <= 100 | grade < 0) {
             System.out.println("");
         switch (grade/10){
             case 9:
