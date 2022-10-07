@@ -9,8 +9,12 @@ public class Test7{
         System.out.println("Enter frist integer:");
         grade = input.nextInt();
         
-        if (grade <= 100 | grade < 0) {
+        if (grade > 100 | grade < 0) {
+            System.out.println("error");
+        }
+         else {
             System.out.println("");
+        }
         switch (grade/10){
             case 9:
             case 10:
@@ -28,10 +32,6 @@ public class Test7{
             default:
                 System.out.println("e");
                 break;
-        }
-        }
-        else {
-            System.out.println("error");
         }
     }
 }
